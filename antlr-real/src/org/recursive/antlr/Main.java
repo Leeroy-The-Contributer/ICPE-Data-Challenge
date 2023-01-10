@@ -64,12 +64,7 @@ public class Main {
 				String dirName = System.getProperty("user.dir") + outputFilePath + args[0].substring(args[0].lastIndexOf("/"), args[0].lastIndexOf("."));
 				File dir = new File(dirName);
 				dir.mkdirs();
-				File file;
-				if (!dirName.substring(0, 1).toUpperCase().equals(dirName.substring(0, 1))) {
-					file = new File(dirName + "/" + pathToPackage(fileName.substring(fileName.indexOf(packageToPath(dirName)), fileName.lastIndexOf('.')) + ".txt"));
-				} else {
-					file = new File(dirName + ".txt");
-				}
+				File file = new File(dirName + "/" + pathToPackage(fileName.substring(fileName.indexOf(packageToPath(args[1])), fileName.lastIndexOf('.')) + ".txt"));
 				try (BufferedWriter bf = new BufferedWriter(new FileWriter(file))) {
 					for (Map.Entry<String, Integer> entry : values.entrySet()) {
 						bf.write(entry.getKey() + ":" + entry.getValue());
@@ -93,6 +88,8 @@ public class Main {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
+		System.out.println("Finished processing: " + args[0]);
 	}
 	
 	private static Set<String> getRelated(String fileName, String packageName, List<String> sources) {
@@ -102,7 +99,7 @@ public class Main {
 		try (Scanner sc = new Scanner(new File(fileName))) {
 	      while (sc.hasNextLine()) {
 	        String data = sc.nextLine();
-	        if (data.startsWith("import " + packageName) || (data.startsWith("import") && packageName.equals("ANY"))) {
+	        if (data.startsWith("import " + packageName)) {
 	        	String newFile = "";
 	        	boolean found = false;
 //	        	for (String path: srcPaths) {
