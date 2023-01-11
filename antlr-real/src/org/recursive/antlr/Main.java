@@ -28,6 +28,7 @@ import org.recursive.parser.JavaParser;
 public class Main {
 	private static Set<String> unfound = new HashSet<>();
 	private static List<String> sources = new ArrayList<>();
+	private static List<String> considered = new ArrayList<>();
 	
 	public static void main(String[] args) {
 		if (args.length < 3) {
@@ -100,35 +101,28 @@ public class Main {
 	      while (sc.hasNextLine()) {
 	        String data = sc.nextLine();
 	        if (data.startsWith("import " + packageName)) {
-	        	String newFile = "";
-	        	boolean found = false;
-//	        	for (String path: srcPaths) {
-//	        		newFile = path + "/" + packageToPath(data.replaceFirst("import ", "").replace(";", "")) + ".java";
-//	        		File f = new File(newFile);
-//	        		if (f.exists()) {
-//	        			found = true;
-//	        			break;
-//	        		}
-//	        	}
-	        	//find the file path of of the left most file and write it to a file
-	        	String search = packageToPath(data.replaceFirst("import ", "").replace(";", "")) + ".java";
-	        	// import org.apache.kafka.ClassName; -> org/apache/kafka/ClassName.java
-//	        	String search = data.substring(data.lastIndexOf(".") + 1, data.indexOf(";")) + ".java";
-	            try {
-	                for (String src: sources) {
-	                	if (src.contains(search)) {
-	                		newFile = src;
-	                		found = true;
-	                	}
-	                }
-	            } catch (Exception e) {
-	                e.printStackTrace();
-	            }
+	        	if (!considered.contains(data)) {
+	        		considered.add(data);
+		        	String newFile = "";
+		        	boolean found = false;
+		        	//find the file path of of the left most file and write it to a file
+		        	String search = packageToPath(data.replaceFirst("import ", "").replace(";", "")) + ".java";
+		            try {
+		                for (String src: sources) {
+		                	if (src.contains(search)) {
+		                		newFile = src;
+		                		found = true;
+		                	}
+		                }
+		            } catch (Exception e) {
+		                e.printStackTrace();
+		            }
                 
-	        	if (found) {
-		        	related.addAll(getRelated(newFile, packageName, sources));
-	        	} else {
-	        		unfound.add(data.replaceFirst("import ", "").replace(";", "") + ".java");
+		        	if (found) {
+			        	related.addAll(getRelated(newFile, packageName, sources));
+		        	} else {
+		        		unfound.add(data.replaceFirst("import ", "").replace(";", "") + ".java");
+		        	}
 	        	}
 	        }
 	      }
