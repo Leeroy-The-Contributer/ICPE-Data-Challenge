@@ -81,7 +81,7 @@ public class Main {
 				}
 				
 			}
-			String final_out = System.getProperty("user.dir") + "/output/" + args[1] + '.' + args[0].substring(args[0].lastIndexOf("/") + 1, args[0].lastIndexOf(".")) + "_everything.txt";
+			String final_out = System.getProperty("user.dir") + "/output/" + pathToPackage(args[0].substring(args[0].indexOf(packageToPath(args[1])), args[0].lastIndexOf('.'))) + "_everything.txt";
 			File final_out_file = new File(final_out);
 			try (BufferedWriter bf = new BufferedWriter(new FileWriter(final_out_file))) {
 				for (Map.Entry<String, Integer> entry : all_values.entrySet()) {
