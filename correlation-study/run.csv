@@ -1,0 +1,556 @@
+,run
+0,steady state
+1,steady state
+2,steady state
+3,steady state
+4,steady state
+5,steady state
+6,inconsistent
+7,inconsistent
+8,inconsistent
+9,inconsistent
+10,inconsistent
+11,inconsistent
+12,inconsistent
+13,inconsistent
+14,steady state
+15,inconsistent
+16,inconsistent
+17,inconsistent
+18,inconsistent
+19,inconsistent
+20,steady state
+21,inconsistent
+22,inconsistent
+23,steady state
+24,steady state
+25,inconsistent
+26,steady state
+27,steady state
+28,inconsistent
+29,inconsistent
+30,steady state
+31,steady state
+32,steady state
+33,steady state
+34,steady state
+35,steady state
+36,steady state
+37,steady state
+38,steady state
+39,steady state
+40,steady state
+41,inconsistent
+42,inconsistent
+43,steady state
+44,steady state
+45,steady state
+46,steady state
+47,steady state
+48,steady state
+49,steady state
+50,steady state
+51,steady state
+52,steady state
+53,steady state
+54,steady state
+55,steady state
+56,steady state
+57,steady state
+58,steady state
+59,steady state
+60,steady state
+61,inconsistent
+62,inconsistent
+63,inconsistent
+64,steady state
+65,inconsistent
+66,steady state
+67,inconsistent
+68,inconsistent
+69,inconsistent
+70,steady state
+71,steady state
+72,inconsistent
+73,steady state
+74,inconsistent
+75,steady state
+76,inconsistent
+77,steady state
+78,inconsistent
+79,inconsistent
+80,steady state
+81,inconsistent
+82,steady state
+83,steady state
+84,steady state
+85,inconsistent
+86,steady state
+87,steady state
+88,steady state
+89,steady state
+90,steady state
+91,steady state
+92,steady state
+93,inconsistent
+94,steady state
+95,inconsistent
+96,inconsistent
+97,steady state
+98,steady state
+99,steady state
+100,steady state
+101,inconsistent
+102,steady state
+103,inconsistent
+104,steady state
+105,steady state
+106,steady state
+107,steady state
+108,inconsistent
+109,inconsistent
+110,steady state
+111,inconsistent
+112,steady state
+113,inconsistent
+114,inconsistent
+115,inconsistent
+116,steady state
+117,inconsistent
+118,inconsistent
+119,inconsistent
+120,steady state
+121,steady state
+122,steady state
+123,steady state
+124,steady state
+125,steady state
+126,steady state
+127,steady state
+128,steady state
+129,inconsistent
+130,steady state
+131,inconsistent
+132,inconsistent
+133,steady state
+134,inconsistent
+135,steady state
+136,inconsistent
+137,inconsistent
+138,inconsistent
+139,inconsistent
+140,inconsistent
+141,steady state
+142,steady state
+143,steady state
+144,steady state
+145,inconsistent
+146,steady state
+147,steady state
+148,inconsistent
+149,inconsistent
+150,steady state
+151,steady state
+152,steady state
+153,steady state
+154,steady state
+155,steady state
+156,inconsistent
+157,steady state
+158,inconsistent
+159,steady state
+160,inconsistent
+161,inconsistent
+162,steady state
+163,steady state
+164,steady state
+165,inconsistent
+166,steady state
+167,steady state
+168,inconsistent
+169,inconsistent
+170,inconsistent
+171,inconsistent
+172,steady state
+173,steady state
+174,steady state
+175,steady state
+176,inconsistent
+177,steady state
+178,steady state
+179,steady state
+180,inconsistent
+181,inconsistent
+182,inconsistent
+183,inconsistent
+184,steady state
+185,inconsistent
+186,steady state
+187,inconsistent
+188,inconsistent
+189,steady state
+190,steady state
+191,steady state
+192,steady state
+193,steady state
+194,steady state
+195,inconsistent
+196,steady state
+197,steady state
+198,steady state
+199,steady state
+200,steady state
+201,inconsistent
+202,inconsistent
+203,steady state
+204,inconsistent
+205,inconsistent
+206,steady state
+207,inconsistent
+208,inconsistent
+209,inconsistent
+210,inconsistent
+211,steady state
+212,inconsistent
+213,steady state
+214,steady state
+215,steady state
+216,steady state
+217,steady state
+218,steady state
+219,inconsistent
+220,steady state
+221,steady state
+222,steady state
+223,steady state
+224,steady state
+225,steady state
+226,steady state
+227,steady state
+228,steady state
+229,inconsistent
+230,inconsistent
+231,steady state
+232,steady state
+233,steady state
+234,steady state
+235,steady state
+236,inconsistent
+237,steady state
+238,steady state
+239,steady state
+240,inconsistent
+241,inconsistent
+242,inconsistent
+243,steady state
+244,steady state
+245,steady state
+246,steady state
+247,steady state
+248,inconsistent
+249,steady state
+250,steady state
+251,steady state
+252,steady state
+253,steady state
+254,inconsistent
+255,steady state
+256,steady state
+257,steady state
+258,steady state
+259,inconsistent
+260,steady state
+261,inconsistent
+262,inconsistent
+263,steady state
+264,steady state
+265,inconsistent
+266,inconsistent
+267,inconsistent
+268,inconsistent
+269,inconsistent
+270,inconsistent
+271,inconsistent
+272,steady state
+273,steady state
+274,steady state
+275,steady state
+276,steady state
+277,steady state
+278,steady state
+279,inconsistent
+280,steady state
+281,steady state
+282,steady state
+283,steady state
+284,steady state
+285,steady state
+286,steady state
+287,steady state
+288,steady state
+289,steady state
+290,inconsistent
+291,inconsistent
+292,steady state
+293,steady state
+294,inconsistent
+295,inconsistent
+296,steady state
+297,inconsistent
+298,inconsistent
+299,steady state
+300,steady state
+301,inconsistent
+302,inconsistent
+303,inconsistent
+304,inconsistent
+305,inconsistent
+306,inconsistent
+307,inconsistent
+308,inconsistent
+309,inconsistent
+310,inconsistent
+311,steady state
+312,inconsistent
+313,inconsistent
+314,inconsistent
+315,inconsistent
+316,inconsistent
+317,inconsistent
+318,steady state
+319,steady state
+320,steady state
+321,steady state
+322,inconsistent
+323,inconsistent
+324,steady state
+325,steady state
+326,inconsistent
+327,steady state
+328,steady state
+329,inconsistent
+330,steady state
+331,steady state
+332,steady state
+333,steady state
+334,inconsistent
+335,inconsistent
+336,inconsistent
+337,steady state
+338,steady state
+339,steady state
+340,inconsistent
+341,inconsistent
+342,inconsistent
+343,inconsistent
+344,inconsistent
+345,steady state
+346,inconsistent
+347,steady state
+348,steady state
+349,inconsistent
+350,inconsistent
+351,inconsistent
+352,inconsistent
+353,inconsistent
+354,steady state
+355,inconsistent
+356,steady state
+357,inconsistent
+358,steady state
+359,steady state
+360,steady state
+361,steady state
+362,inconsistent
+363,steady state
+364,inconsistent
+365,steady state
+366,steady state
+367,inconsistent
+368,steady state
+369,inconsistent
+370,inconsistent
+371,inconsistent
+372,inconsistent
+373,steady state
+374,steady state
+375,inconsistent
+376,inconsistent
+377,inconsistent
+378,steady state
+379,steady state
+380,steady state
+381,steady state
+382,inconsistent
+383,steady state
+384,steady state
+385,inconsistent
+386,inconsistent
+387,steady state
+388,steady state
+389,steady state
+390,steady state
+391,steady state
+392,steady state
+393,steady state
+394,steady state
+395,steady state
+396,steady state
+397,steady state
+398,steady state
+399,steady state
+400,steady state
+401,steady state
+402,steady state
+403,steady state
+404,steady state
+405,steady state
+406,inconsistent
+407,inconsistent
+408,inconsistent
+409,inconsistent
+410,steady state
+411,inconsistent
+412,inconsistent
+413,inconsistent
+414,steady state
+415,steady state
+416,steady state
+417,inconsistent
+418,inconsistent
+419,inconsistent
+420,inconsistent
+421,inconsistent
+422,inconsistent
+423,inconsistent
+424,inconsistent
+425,inconsistent
+426,inconsistent
+427,steady state
+428,inconsistent
+429,inconsistent
+430,inconsistent
+431,steady state
+432,inconsistent
+433,steady state
+434,inconsistent
+435,steady state
+436,steady state
+437,inconsistent
+438,inconsistent
+439,inconsistent
+440,inconsistent
+441,steady state
+442,steady state
+443,steady state
+444,inconsistent
+445,inconsistent
+446,steady state
+447,steady state
+448,steady state
+449,steady state
+450,inconsistent
+451,inconsistent
+452,steady state
+453,inconsistent
+454,inconsistent
+455,inconsistent
+456,steady state
+457,inconsistent
+458,inconsistent
+459,steady state
+460,steady state
+461,steady state
+462,inconsistent
+463,inconsistent
+464,inconsistent
+465,steady state
+466,inconsistent
+467,steady state
+468,steady state
+469,steady state
+470,steady state
+471,steady state
+472,steady state
+473,steady state
+474,steady state
+475,steady state
+476,steady state
+477,steady state
+478,steady state
+479,steady state
+480,steady state
+481,steady state
+482,steady state
+483,steady state
+484,inconsistent
+485,inconsistent
+486,inconsistent
+487,inconsistent
+488,inconsistent
+489,steady state
+490,steady state
+491,steady state
+492,steady state
+493,steady state
+494,steady state
+495,steady state
+496,steady state
+497,steady state
+498,inconsistent
+499,inconsistent
+500,steady state
+501,inconsistent
+502,steady state
+503,inconsistent
+504,inconsistent
+505,inconsistent
+506,inconsistent
+507,inconsistent
+508,inconsistent
+509,inconsistent
+510,inconsistent
+511,inconsistent
+512,inconsistent
+513,inconsistent
+514,inconsistent
+515,steady state
+516,steady state
+517,steady state
+518,inconsistent
+519,steady state
+520,steady state
+521,steady state
+522,steady state
+523,steady state
+524,steady state
+525,steady state
+526,steady state
+527,inconsistent
+528,inconsistent
+529,inconsistent
+530,inconsistent
+531,steady state
+532,steady state
+533,steady state
+534,inconsistent
+535,inconsistent
+536,inconsistent
+537,inconsistent
+538,inconsistent
+539,inconsistent
+540,steady state
+541,steady state
+542,steady state
+543,steady state
+544,steady state
+545,steady state
+546,steady state
+547,inconsistent
+548,inconsistent
+549,inconsistent
+550,inconsistent
+551,steady state
+552,inconsistent
+553,inconsistent
+554,inconsistent

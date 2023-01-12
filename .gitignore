@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,linux,java,python,git,eclipse,visualstudiocode,pycharm
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,linux,java,python,git,eclipse,visualstudiocode,pycharm
 
+### Special ###
+.ignore/
+
 ### Eclipse ###
 .metadata
 bin/
