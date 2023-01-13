@@ -1,0 +1,60 @@
+clean,decision tree {'criterion': 'gini'} 0.3829113924050633
+clean,decision tree {'criterion': 'entropy'} 0.3829113924050633
+clean,k neighbors {'n_neighbors': 5} 0.37658227848101267
+clean,random forest {'criterion': 'entropy'} 0.370253164556962
+clean,random forest {'criterion': 'gini'} 0.3639240506329114
+clean,k neighbors {'n_neighbors': 3} 0.3575949367088608
+clean,support vector machines {'C': 0.01} 0.31962025316455694
+clean,support vector machines {'C': 0.1} 0.31962025316455694
+clean,support vector machines {'C': 1} 0.31962025316455694
+clean,support vector machines {'C': 10} 0.31962025316455694
+clean,log regression {'C': 0.01} 0.26582278481012656
+clean,log regression {'C': 0.1} 0.26582278481012656
+clean,log regression {'C': 1} 0.26582278481012656
+clean,log regression {'C': 10} 0.26582278481012656
+clean,naive bayes {} 0.012658227848101266
+pearson_i,decision tree,{'criterion': 'gini'},0.35443037974683544
+pearson_i,decision tree,{'criterion': 'entropy'},0.35443037974683544
+pearson_i,random forest,{'criterion': 'entropy'},0.3512658227848101
+pearson_i,random forest,{'criterion': 'gini'},0.34810126582278483
+pearson_i,k neighbors,{'n_neighbors': 3},0.33544303797468356
+pearson_i,support vector machines,{'C': 10},0.3322784810126582
+pearson_i,support vector machines,{'C': 1},0.3227848101265823
+pearson_i,support vector machines,{'C': 0.01},0.31962025316455694
+pearson_i,support vector machines,{'C': 0.1},0.31962025316455694
+pearson_i,k neighbors,{'n_neighbors': 5},0.2468354430379747
+pearson_i,log regression,{'C': 10},0.23734177215189872
+pearson_i,log regression,{'C': 0.01},0.23417721518987342
+pearson_i,log regression,{'C': 0.1},0.2310126582278481
+pearson_i,log regression,{'C': 1},0.22468354430379747
+pearson_i,naive bayes,{},0.012658227848101266
+spearman_i,decision tree,{'criterion': 'gini'},0.3829113924050633
+spearman_i,decision tree,{'criterion': 'entropy'},0.3829113924050633
+spearman_i,random forest,{'criterion': 'gini'},0.3670886075949367
+spearman_i,random forest,{'criterion': 'entropy'},0.3670886075949367
+spearman_i,k neighbors,{'n_neighbors': 5},0.36075949367088606
+spearman_i,k neighbors,{'n_neighbors': 3},0.3575949367088608
+spearman_i,support vector machines,{'C': 0.01},0.31962025316455694
+spearman_i,support vector machines,{'C': 0.1},0.31962025316455694
+spearman_i,support vector machines,{'C': 1},0.31962025316455694
+spearman_i,support vector machines,{'C': 10},0.31962025316455694
+spearman_i,log regression,{'C': 0.01},0.24367088607594936
+spearman_i,log regression,{'C': 0.1},0.24050632911392406
+spearman_i,log regression,{'C': 1},0.23734177215189872
+spearman_i,log regression,{'C': 10},0.23734177215189872
+spearman_i,naive bayes,{},0.012658227848101266
+kendall_i,decision tree,{'criterion': 'gini'},0.3670886075949367
+kendall_i,decision tree,{'criterion': 'entropy'},0.3670886075949367
+kendall_i,k neighbors,{'n_neighbors': 5},0.3639240506329114
+kendall_i,random forest,{'criterion': 'entropy'},0.3575949367088608
+kendall_i,random forest,{'criterion': 'gini'},0.35443037974683544
+kendall_i,k neighbors,{'n_neighbors': 3},0.33544303797468356
+kendall_i,support vector machines,{'C': 10},0.3291139240506329
+kendall_i,support vector machines,{'C': 1},0.3259493670886076
+kendall_i,support vector machines,{'C': 0.01},0.31962025316455694
+kendall_i,support vector machines,{'C': 0.1},0.31962025316455694
+kendall_i,log regression,{'C': 0.01},0.22784810126582278
+kendall_i,log regression,{'C': 10},0.22468354430379747
+kendall_i,log regression,{'C': 1},0.22151898734177214
+kendall_i,log regression,{'C': 0.1},0.21835443037974683
+kendall_i,naive bayes,{},0.00949367088607595
