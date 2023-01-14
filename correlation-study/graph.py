@@ -28,7 +28,9 @@ for t in types:
     plt.xlabel("Correlation")
     ax = plt.gca()
     ax.get_yaxis().set_ticks([])
-    plt.savefig(f'.\\graphs\\{t}_correlation_all.png', bbox_inches="tight")
+    fig = plt.gcf()
+    fig.set_dpi(200)
+    fig.savefig(f'.\\graphs\\{t}_correlation_all.png', bbox_inches="tight")
     plt.clf()
 
     # Filter correlation for most significant increases
@@ -37,5 +39,7 @@ for t in types:
     plt.yticks(verticalalignment="center")
     plt.ylabel("Feature")
     plt.xlabel("Correlation")
-    plt.savefig(f'.\\graphs\\{t}_correlation_significant.png', bbox_inches="tight")
+    fig = plt.gcf()
+    fig.set_dpi(200)
+    fig.savefig(f'.\\graphs\\{t}_correlation_significant.png', bbox_inches="tight")
     plt.clf()

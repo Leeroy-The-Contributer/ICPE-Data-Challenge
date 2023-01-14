@@ -1,0 +1,60 @@
+unfiltered,log regression,{'C': 0.01},0.6785714285714286
+unfiltered,log regression,{'C': 0.1},0.6785714285714286
+unfiltered,log regression,{'C': 1},0.6785714285714286
+unfiltered,log regression,{'C': 10},0.6785714285714286
+unfiltered,decision tree,{'criterion': 'entropy'},0.6785714285714286
+unfiltered,k neighbors,{'n_neighbors': 5},0.6785714285714286
+unfiltered,decision tree,{'criterion': 'gini'},0.6607142857142857
+unfiltered,random forest,{'criterion': 'gini'},0.6428571428571429
+unfiltered,random forest,{'criterion': 'entropy'},0.625
+unfiltered,k neighbors,{'n_neighbors': 3},0.625
+unfiltered,naive bayes,{},0.5892857142857143
+unfiltered,support vector machines,{'C': 0.01},0.5535714285714286
+unfiltered,support vector machines,{'C': 0.1},0.5535714285714286
+unfiltered,support vector machines,{'C': 1},0.5535714285714286
+unfiltered,support vector machines,{'C': 10},0.5535714285714286
+pearson,decision tree,{'criterion': 'entropy'},0.6785714285714286
+pearson,random forest,{'criterion': 'entropy'},0.6785714285714286
+pearson,k neighbors,{'n_neighbors': 3},0.6785714285714286
+pearson,k neighbors,{'n_neighbors': 5},0.6785714285714286
+pearson,decision tree,{'criterion': 'gini'},0.6607142857142857
+pearson,random forest,{'criterion': 'gini'},0.6607142857142857
+pearson,log regression,{'C': 10},0.625
+pearson,log regression,{'C': 0.01},0.6071428571428571
+pearson,log regression,{'C': 0.1},0.6071428571428571
+pearson,log regression,{'C': 1},0.6071428571428571
+pearson,naive bayes,{},0.6071428571428571
+pearson,support vector machines,{'C': 10},0.6071428571428571
+pearson,support vector machines,{'C': 1},0.5892857142857143
+pearson,support vector machines,{'C': 0.01},0.5535714285714286
+pearson,support vector machines,{'C': 0.1},0.5535714285714286
+spearman,random forest,{'criterion': 'gini'},0.7142857142857143
+spearman,k neighbors,{'n_neighbors': 5},0.6785714285714286
+spearman,decision tree,{'criterion': 'gini'},0.6607142857142857
+spearman,random forest,{'criterion': 'entropy'},0.6607142857142857
+spearman,decision tree,{'criterion': 'entropy'},0.6428571428571429
+spearman,k neighbors,{'n_neighbors': 3},0.6428571428571429
+spearman,support vector machines,{'C': 1},0.5714285714285714
+spearman,support vector machines,{'C': 10},0.5714285714285714
+spearman,log regression,{'C': 0.01},0.5535714285714286
+spearman,log regression,{'C': 0.1},0.5535714285714286
+spearman,log regression,{'C': 1},0.5535714285714286
+spearman,log regression,{'C': 10},0.5535714285714286
+spearman,naive bayes,{},0.5535714285714286
+spearman,support vector machines,{'C': 0.01},0.5535714285714286
+spearman,support vector machines,{'C': 0.1},0.5535714285714286
+kendall,random forest,{'criterion': 'gini'},0.6785714285714286
+kendall,k neighbors,{'n_neighbors': 5},0.6785714285714286
+kendall,decision tree,{'criterion': 'gini'},0.6607142857142857
+kendall,decision tree,{'criterion': 'entropy'},0.6607142857142857
+kendall,random forest,{'criterion': 'entropy'},0.6607142857142857
+kendall,k neighbors,{'n_neighbors': 3},0.6428571428571429
+kendall,support vector machines,{'C': 1},0.5714285714285714
+kendall,support vector machines,{'C': 10},0.5714285714285714
+kendall,naive bayes,{},0.5535714285714286
+kendall,support vector machines,{'C': 0.01},0.5535714285714286
+kendall,support vector machines,{'C': 0.1},0.5535714285714286
+kendall,log regression,{'C': 0.01},0.5357142857142857
+kendall,log regression,{'C': 0.1},0.5178571428571429
+kendall,log regression,{'C': 1},0.5178571428571429
+kendall,log regression,{'C': 10},0.5178571428571429

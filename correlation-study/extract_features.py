@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-features = ".\\Everything\\"
+features = ".\\everything\\"
 classifications = ".\\classification\\"
 
 # Add all benchmark filenames to a dictionary

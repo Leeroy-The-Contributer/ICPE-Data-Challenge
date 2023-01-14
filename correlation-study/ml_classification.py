@@ -24,30 +24,48 @@ modelclasses = [
     ["support vector machines", SVC, svc_params]
 ]
 
-types = ['pearson_i', 'spearman_i', 'kendall_i']
+types = ['pearson', 'spearman', 'kendall']
+condition = 0.06
+
+df_features = pd.read_csv('features.csv')
+df_run = pd.read_csv('run.csv')
+
+df_features.drop(columns=df_features.columns[0], axis=1, inplace=True)
+df_run.drop(columns=df_run.columns[0], axis=1, inplace=True)
+
+X_train, X_test, y_train, y_test = train_test_split(df_features, df_run['run'], test_size=0.1, random_state=42)
+
+insights = []
+for modelname, Model, params_list in modelclasses:
+    for params in params_list:
+        model = Model(**params)
+        model.fit(X_train, y_train)
+        score = model.score(X_test, y_test)
+
+        insights.append((modelname, model, params, score))
+
+insights.sort(key=lambda x:x[-1], reverse=True)
+f = open("ml\\ml_classification.csv", "w")
+for modelname, model, params, score in insights:
+    f.write(f"unfiltered,{modelname},{params},{score}\n")
+f.close()
 
 for t in types:
-    if t == 'spearman_i':
-        condition = 0.15
-    elif t == 'kendall_i':
-        condition = 0.12
-    else:
-        condition = 0.06
 
     df = pd.read_csv(f'.\\correlations\\{t}_correlation.txt', names=['feature', 'correlation'], header=0)
     df = df.dropna().sort_values('correlation')
     df = df.set_index('feature')
-    df = df[(abs(df['correlation']) >= condition)]\
+    df = df[(abs(df['correlation']) >= condition)]
 
     columns = df.index.values.tolist()
 
-    df_features = pd.read_csv('features_for_iterations.csv')
-    df_iterations = pd.read_csv('iterations.csv')
+    df_features = pd.read_csv('features.csv')
+    df_run = pd.read_csv('run.csv')
     
     df_features.drop(columns=df_features.columns[0], axis=1, inplace=True)
-    df_iterations.drop(columns=df_iterations.columns[0], axis=1, inplace=True)
+    df_run.drop(columns=df_run.columns[0], axis=1, inplace=True)
 
-    X_train, X_test, y_train, y_test = train_test_split(df_features[columns], df_iterations['iterations'], test_size=0.1, random_state=42)
+    X_train, X_test, y_train, y_test = train_test_split(df_features[columns], df_run['run'], test_size=0.1, random_state=42)
 
     insights = []
     for modelname, Model, params_list in modelclasses:
@@ -59,7 +77,7 @@ for t in types:
             insights.append((modelname, model, params, score))
 
     insights.sort(key=lambda x:x[-1], reverse=True)
-    f = open("ml.csv", "a")
+    f = open("ml\\ml_classification.csv", "a")
     for modelname, model, params, score in insights:
         f.write(f"{t},{modelname},{params},{score}\n")
     f.close()
