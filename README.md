@@ -6,7 +6,7 @@ Our solution requires that you download the `antlr-4.11.1-complete.jar` from htt
 After adding the jar into the `antlr-real/lib/` folder you can build a runnable jar file for the project 
 
 ## Correlation Study on Source Code Features vs Steady State Classifications
-The correlation sudy extracted data from the `data/classification/` folder from https://github.com/SEALABQualityGroup/steady-state to find the correlation coefficient between each source code feature and steady state performance.
+The correlation study uses extracted data from the `data/classification/` folder from https://github.com/SEALABQualityGroup/steady-state to find the correlation coefficient between each source code feature and steady state performance.
 
 The following command will find the correlation coeffecient using Pearson's r, Spearman's rho and Kendall's tau and save the results in `correlation_study/correlations/`
 ```sh
