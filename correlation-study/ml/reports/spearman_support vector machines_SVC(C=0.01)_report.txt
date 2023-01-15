@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+inconsistent       0.00      0.00      0.00        25
+steady state       0.55      1.00      0.71        31
+
+    accuracy                           0.55        56
+   macro avg       0.28      0.50      0.36        56
+weighted avg       0.31      0.55      0.39        56
